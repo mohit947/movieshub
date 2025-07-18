@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { useState } from "react";
 import toast from "react-hot-toast";
-import Image from "next/image";
 
 interface LoginForm {
   email: string;

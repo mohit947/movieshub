@@ -43,7 +43,7 @@ export default function NewMoviePage() {
       } = await supabase.auth.getSession();
       const token = session?.access_token;
 
-      let poster_url = null;
+      let poster_url: any = null;
 
       const fileInput = document.querySelector(
         'input[type="file"]'
